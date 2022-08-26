@@ -17,11 +17,6 @@ class Button {
       return estado;
     }
 
-    String getIsPressText() {
-      if (getIsPress()) return "PRESS";
-      else return "IS NOT PRESS";
-    }
-
 };
 
 #define BUTTON 4  //te ponen 
